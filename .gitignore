@@ -1,0 +1,26 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+__MACOSX/
+._*
+
+# Dependencies
+node_modules/
+
+# Build and test artifacts
+dist/
+build/
+coverage/
+*.lcov
+.nyc_output/
+
+# Temporary files and logs
+*.log
+!docs/logs/*.log
+*.tmp
+.cache/
+npm-debug.log*
+
+# Environment and secrets
+.env
+.env.local
