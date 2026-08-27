@@ -1,0 +1,22 @@
+{
+  "name": "bench-ai",
+  "version": "1.0.0",
+  "description": "Industrial Developer Instrument & AI Diagnostic Workbench for Incident Investigation",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "node tests/detector.test.js && node tests/ai_engine.test.js",
+    "lint": "eslint js/ --ext .js",
+    "format": "prettier --write 'css/**/*.css' 'js/**/*.js' '*.html'"
+  },
+  "keywords": [
+    "developer-tooling",
+    "diagnostic-bench",
+    "root-cause-analysis",
+    "ai-debugging",
+    "incident-triage",
+    "log-analyzer",
+    "jwt-inspector"
+  ],
+  "author": "Sai Keertan <tedlasaikeertan@gmail.com>",
+  "license": "MIT"
+}
