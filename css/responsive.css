@@ -1,0 +1,24 @@
+@media (max-width: 760px){
+  .rack{ display:none; }
+  .rack-mobile{
+    display:flex; gap:6px; overflow-x:auto; padding:12px 14px;
+    border-bottom:1px solid var(--border); background:var(--panel);
+  }
+  .chip{
+    font-family:var(--mono); font-size:11px; white-space:nowrap; padding:7px 11px; border-radius:4px;
+    border:1px solid var(--border); background:var(--panel-alt); color:var(--text-muted); flex-shrink:0;
+    display:flex; align-items:center; gap:6px;
+  }
+  .chip.active{ border-color:var(--accent-dim); color:var(--accent); background:var(--accent-soft); }
+  .chip .chip-led{ width:5px;height:5px;border-radius:50%; background:var(--border); }
+  .chip.active .chip-led{ background:var(--accent); }
+  .main{ padding:20px 16px 50px; }
+  .readout-grid{ grid-template-columns:1fr; }
+  .autopsy-grid{ grid-template-columns:1fr; }
+  .autopsy-grid .ak{ padding-top:0; }
+  .landing{ margin-top:2vh; }
+  .landing-mark{ font-size:26px; }
+  .topbar{ padding:12px 14px; }
+  .clock{ display:none; }
+  .rc-grid{ grid-template-columns:1fr; }
+}
