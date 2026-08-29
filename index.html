@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BENCH AI — intelligent developer debugging workstation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/instrument.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div class="rig">
+
+  <div class="topbar">
+    <div class="brand" id="brand">
+      <div class="brand-mark">BENCH<span> AI</span></div>
+      <div class="brand-sub">intelligent developer debugging workstation</div>
+    </div>
+    <div class="topbar-right">
+      <button class="icon-btn" id="demoBtn" title="Demo mode">\u25b6</button>
+      <button class="icon-btn" id="helpBtn" title="Keyboard shortcuts (?)">?</button>
+      <div class="clock"><span class="pulse"></span><span id="clock">--:--:--</span></div>
+    </div>
+  </div>
+
+  <div class="rack-mobile" id="rackMobile"></div>
+
+  <div class="body-wrap">
+    <div class="rack" id="rack"></div>
+    <div class="main">
+      <div class="panel" id="panel"></div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast">copied</div>
+<div class="overlay" id="overlay" style="display:none;"></div>
+
+<!-- core -->
+<script src="js/state.js"></script>
+<script src="js/detector.js"></script>
+<script src="js/tools/jwt.js"></script>
+<script src="js/tools/api.js"></script>
+<script src="js/tools/logs.js"></script>
+<script src="js/demo-data.js"></script>
+<script src="js/ai-engine.js"></script>
+<script src="js/history.js"></script>
+
+<!-- channels -->
+<script src="js/channels/capture.js"></script>
+<script src="js/channels/diagnose.js"></script>
+<script src="js/channels/rootcause.js"></script>
+<script src="js/channels/fix.js"></script>
+<script src="js/channels/verify.js"></script>
+<script src="js/channels/api.js"></script>
+<script src="js/channels/logs.js"></script>
+<script src="js/channels/history.js"></script>
+
+<!-- boot -->
+<script src="js/app.js"></script>
+</body>
+</html>
