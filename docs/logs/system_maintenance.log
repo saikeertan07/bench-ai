@@ -21,3 +21,4 @@
 [2026-11-16T13:09:58Z] [MAINTENANCE] Routine system heartbeat | Log stream ingest | Buffer allocation: 4MB | Regex filter speed: 0.12ms | Heartbeat: OK
 [2026-11-17T13:52:39Z] [MAINTENANCE] Routine system heartbeat | Security sandbox sweep | Cross-origin isolation: ACTIVE | Token exfiltration: BLOCKED
 [2026-11-18T13:27:49Z] [MAINTENANCE] Routine system heartbeat | Channel rack bus OK | 8 channels connected | Bus latency: 1.8ms | State: NOMINAL
+[2026-11-19T13:55:17Z] [MAINTENANCE] Routine system heartbeat | Heuristic detector sweep | Known patterns: 14 | Sniffer latency p95: 3.2ms | Status: READY
